@@ -12,29 +12,23 @@ body{
   }
 
   header{
-    display: flex;
-    margin-bottom: 20px;
-    /* gap: 80px; */
+    background-image: url('../images/developer.png'), url('../images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-size: 85px, 750px;
+    background-position: top left,bottom right;
+    margin-left: 10px;
   }
-  .header-container{
-    padding: 28px 32px 0;
-  }
-  .developer{
-    height: 650px;
-  }
-
-  .all-container{
-    padding-top: 28px;
-    width: 100%;
-  }
+   
   .nav-btn{
+    margin: 30px 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 12rem;
     background-color: #FFF8F3;
+    
     padding: 2px 1.25rem;
-  }
+}
+
 .marry{
     font-size: 43px;
     font-weight: 800;
@@ -42,12 +36,14 @@ body{
 .ora{
     color: #FD6E0A;
 }
+
 .navbar{
     display: flex;
     align-items: center;
     gap: 2.5rem;
     list-style: none;
 }
+
 .navbar li a{
     text-decoration: none;
     color: #474747;
@@ -62,70 +58,53 @@ body{
     border-radius: 8px;
 }
 
-.middle-content{
+.banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 35px 0 180px;
 }
+
+.banner-content{
+    width: 557px;
+}
+
 .middle-title{
     font-size: 40px;
     font-weight: 600;
     color: #474747;
+    margin-bottom: 5px;
 }
 .middle-big-title{
     font-size: 80px;
     font-weight:700;
     color:#181818 ;
+    margin-bottom: 20px;
 }
 .middle-para{
     color:#757575 ;
     font-size: 14px;
-    margin: 12px;
     line-height: 1.625;
+    margin-bottom: 30px;
 }
-.middle-end-btn{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
+
 .downloadcv{
-    display: flex;
     background-color: #FD6E0A;
     color: white;
     padding: 16px 20px;
     font-weight: 700;
     border: none;
     border-radius: 6px;
+    margin-right: 5px;
 }
 .contact-btn{
-    display: flex;
-    padding: 16px 20px;
+    padding: 16px 25px;
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
     background-color: white;
     font-weight: bold;
     border-radius: 6px;
 }
-.end-middle-img{
-    position: relative;
-    padding-top: 152px;
-}
-.header-bg{
-    height: 481px;
-}
-.hardy{
-    position: absolute;
-    place-self: end;
-    margin-right: 32px;
-    inset: 0px;
-}
-.hardy-png{
-    height: 633px;
-    background-position: center;
-}
-.quote{
-    background-image: url('../images/icons/js.png');
-    background-repeat: no-repeat;
-    margin: 100px;
-    background-color: gainsboro;
+.banner-profile{
+     width: 524px;
 }
